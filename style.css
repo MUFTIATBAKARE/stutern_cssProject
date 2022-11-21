@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, skyblue, rgb(244, 108,151));
+    max-width: 100%;
+    max-height: 80vh;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    background-color: rgba(237, 239, 241, 255);
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+}
+ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 30px;
+    width: 55%;
+}
+ul li:hover{
+    color:rgb(244, 108,151);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: rgb(139, 135, 135);
+    line-height: 25px;
+}
+#clickMe{
+    background-color: black;
+    border: 1px solid black;
+    color: lightgray;
+    padding: 15px;
+    border-radius: 8px;
+}
+.logo{
+    position: left;
+    margin-top: -50px;
+    width: 45%;
+}
+.main{
+    display: flex;
+    padding: 90px;
+    height: 70vh;
+    margin-top: -20px;
+}
+.myImage{
+    background-image: linear-gradient(to bottom left, skyblue, rgb(244, 108,151));
+    width: 28%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+.myStory{
+    width: 55%;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    margin-top: -40px;
+}
+.myStory2{
+    width: 45%;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 30px;
+
+}
+.mySkill{
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.mySkill label{
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    padding: 10px;
+    margin-right: 10px;
+}
+.mySkill label:hover{
+    background-color: rgb(244, 108,151);
+}
+
